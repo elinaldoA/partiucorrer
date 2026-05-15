@@ -1,0 +1,222 @@
+# Dependencies
+/node_modules
+/node_modules/*
+/node_modules/**/*
+package-lock.json
+yarn.lock
+
+# Environment variables
+.env
+.env.local
+.env.production
+.env.development
+.env.test
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+pm2-*.log
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+lib-cov
+*.lcov
+
+# Coverage directory used by tools like istanbul
+coverage
+*.coveralls.yml
+.nyc_output
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.project
+.classpath
+.settings/
+*.iml
+
+# OS generated files
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+
+# Build outputs
+dist/
+build/
+out/
+*.tsbuildinfo
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.temp
+
+# Database files
+*.sqlite
+*.sqlite3
+*.db
+*.db-journal
+
+# Uploads and static files
+uploads/
+public/uploads/
+storage/
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.mp4
+*.mp3
+
+# Certificates and keys
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+
+# Secrets and sensitive data
+.secrets
+.secrets.*
+*.secret
+*.private
+credentials.json
+
+# Docker
+docker-compose.override.yml
+.docker/
+Dockerfile.dev
+
+# PM2
+.pm2/
+pm2.json
+
+# Redis
+dump.rdb
+
+# MySQL
+*.sql.bak
+*.sql.gz
+
+# Debug
+debug.log
+debug.*
+
+# Testing
+.jest-cache/
+.jest/
+test-results.xml
+
+# Production specific
+.vercel/
+.netlify/
+.hermione/
+
+# Code coverage
+.nyc_output/
+coverage/
+.coverage.*
+*.cov
+*.codecover
+
+# Backup files
+*.bak
+*.backup
+*.old
+*.orig
+
+# Architecture specific files
+*.dll
+*.exe
+*.so
+*.dylib
+
+# Package manager specific
+.npm/
+.pnpm-store/
+.eslintcache
+.parcel-cache/
+
+# TypeScript
+*.tsbuildinfo
+*.tsbuildinfo.*
+
+# Project specific
+/database.sql.bak
+/database-backup-*.sql
+/backups/
+
+# Service worker
+service-worker.js
+service-worker.js.map
+precache-manifest.*
+
+# Next.js specific
+.next/
+out/
+
+# Nuxt.js specific
+.nuxt/
+.nuxt-dist/
+
+# Gatsby specific
+.cache/
+public/
+
+# Remix specific
+build/
+public/build/
+
+# Electron specific
+dist/
+out/
+release/
+
+# Expo specific
+.expo/
+expo-build/
+
+# Firebase specific
+.firebase/
+firebase-debug.log
+
+# Wordpress specific
+wp-config-local.php
+wp-content/plugins/
+wp-content/themes/
+wp-content/uploads/
+wp-content/languages/
+
+# Laravel specific
+/storage/
+/vendor/
+.env.backup
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
+/.fleet
+/.idea
+/.vscode
